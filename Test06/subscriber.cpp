@@ -2,7 +2,8 @@
 #include <unitree/common/time/time_tool.hpp>
 #include "HelloWorldData.hpp"
 
-#define TOPIC "TopicHelloWorld"
+// #define TOPIC "TopicHelloWorld"
+#define TOPIC "TopicTest06"
 
 using namespace unitree::robot;
 using namespace unitree::common;
