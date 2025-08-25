@@ -21,4 +21,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 # add_subdirectory(${CMAKE_SOURCE_DIR}/Test03)
 #add_subdirectory(${CMAKE_SOURCE_DIR}/Test04)
 # add_subdirectory(${CMAKE_SOURCE_DIR}/Test05)
-add_subdirectory(${CMAKE_SOURCE_DIR}/Test06)
+# add_subdirectory(${CMAKE_SOURCE_DIR}/Test06)
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/Test07/idl_generate) # 先处理idl_generate(生成IDL->CPP/HPP)
+add_subdirectory(${CMAKE_SOURCE_DIR}/Test07) # 再处理Test07(编译运行程序)
